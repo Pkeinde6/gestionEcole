@@ -1,0 +1,474 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\frmmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\frmmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AppGestionCahierTexte||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\frmmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\frmmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|c:\\users\\pc\\source\\repos\\gestioncahiertexte\\appgestioncahiertexte\\views\\securite\\frmresponsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\securite\\frmresponsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|c:\\users\\pc\\source\\repos\\gestioncahiertexte\\appgestioncahiertexte\\views\\securite\\frmresponsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\securite\\frmresponsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|c:\\users\\pc\\source\\repos\\gestioncahiertexte\\appgestioncahiertexte\\utils\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\utils\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\syllabus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\syllabus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|c:\\users\\pc\\source\\repos\\gestioncahiertexte\\appgestioncahiertexte\\utils\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\utils\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\responsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\responsableclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\professeurmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\professeurmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\bdcahierdetextecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\bdcahierdetextecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmclasse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmclasse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmclasse.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmclasse.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmprofesseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\model\\chefdepartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\model\\chefdepartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\views\\parametre\\frmmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\views\\parametre\\frmmatiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\appgestioncahiertexte\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|solutionrelative:appgestioncahiertexte\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3E206E-4336-4000-834A-128B14218EA7}|AppGestionCahierTexte\\AppGestionCahierTexte.csproj|c:\\users\\pc\\source\\repos\\gestioncahiertexte\\appgestioncahiertexte\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Syllabus.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Syllabus.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Syllabus.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Syllabus.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Syllabus.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:18:37.312Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppGestionCahierTexte",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\AppGestionCahierTexte.csproj",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\AppGestionCahierTexte.csproj",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\AppGestionCahierTexte.csproj",
+              "RelativeToolTip": "AppGestionCahierTexte\\AppGestionCahierTexte.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-05T13:57:42.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmResponsableClasse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwFsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T21:46:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMDI.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\frmMDI.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\frmMDI.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\frmMDI.cs [Design]",
+              "RelativeToolTip": "AppGestionCahierTexte\\frmMDI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:22:59.08Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Form1.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Form1.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Form1.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:37:28.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMDI.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\frmMDI.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\frmMDI.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\frmMDI.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\frmMDI.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:40:11.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmResponsableClasse.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs [Design]",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Securite\\frmResponsableClasse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T12:59:38.692Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadData.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Utils\\LoadData.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Utils\\LoadData.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Utils\\LoadData.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Utils\\LoadData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:07:43.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Utilisateur.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:56:14.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Crypto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Utils\\Crypto.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Utils\\Crypto.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Utils\\Crypto.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Utils\\Crypto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T12:54:46.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResponsableClasse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ResponsableClasse.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\ResponsableClasse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ResponsableClasse.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\ResponsableClasse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:01:43.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmClasse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:51:25.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmClasse.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs [Design]",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:32:13.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Classe.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Classe.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Classe.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Classe.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Classe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T17:46:12.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfesseurMatiere.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ProfesseurMatiere.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\ProfesseurMatiere.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ProfesseurMatiere.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\ProfesseurMatiere.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T21:41:12.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Professeur.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Professeur.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Professeur.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Professeur.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Professeur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T21:41:07.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BDCahierDeTexteContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\BDCahierDeTexteContext.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\BDCahierDeTexteContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\BDCahierDeTexteContext.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\BDCahierDeTexteContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T17:43:15.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Departement.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Departement.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Departement.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Departement.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:03:43.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Matiere.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Matiere.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\Matiere.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\Matiere.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\Matiere.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T17:45:55.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmClasse.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.Designer.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.Designer.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T20:07:26.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmClasse.resx",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.resx",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.resx",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmClasse.resx",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmClasse.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-02-04T20:07:21.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmMatiere.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs [Design]",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:31:58.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmProfesseur.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmProfesseur.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmProfesseur.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmProfesseur.cs [Design]",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmProfesseur.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:32:35.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Program.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Program.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T20:06:41.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChefDepartement.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ChefDepartement.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Model\\ChefDepartement.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Model\\ChefDepartement.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Model\\ChefDepartement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:02:58.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\App.config",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\App.config",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\App.config",
+              "RelativeToolTip": "AppGestionCahierTexte\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-26T17:18:29.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmMatiere.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Views\\Parametre\\frmMatiere.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwE0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:13:01.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "AppGestionCahierTexte\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\GestionCahierTexte\\AppGestionCahierTexte\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "AppGestionCahierTexte\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T12:40:37.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

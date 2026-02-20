@@ -10,6 +10,8 @@ namespace AppGestionCahierTexte.Model
     public class ResponsableClasse:Utilisateur
     {
         public int IdClasse { get; set; }
+
+        [ForeignKey("IdClasse")]
         public virtual Classe Classe { get; set; }
     }
 }

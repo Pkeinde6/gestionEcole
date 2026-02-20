@@ -8,11 +8,12 @@
     <ProjectGuid>{AA3E206E-4336-4000-834A-128B14218EA7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>AppGestionCahierTexte</RootNamespace>
-    <AssemblyName>AppGestionCahierTexte</AssemblyName>
+    <AssemblyName>ClassLog</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -36,7 +37,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Button-Download.ico</ApplicationIcon>
+    <ApplicationIcon>icone app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
@@ -137,6 +138,11 @@
     <Compile Include="Model\ResponsableClasse.cs" />
     <Compile Include="Model\Syllabus.cs" />
     <Compile Include="Model\Utilisateur.cs" />
+    <Compile Include="Model\Administrateur.cs" />
+    <Compile Include="Model\Seance.cs" />
+    <Compile Include="Model\CahierDeTexte.cs" />
+    <Compile Include="Model\Devoir.cs" />
+    <Compile Include="Model\EmploiDuTemps.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Crypto.cs" />
@@ -165,6 +171,36 @@
     <Compile Include="Views\Parametre\frmProfesseur.Designer.cs">
       <DependentUpon>frmProfesseur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Parametre\frmDepartement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmDepartement.Designer.cs">
+      <DependentUpon>frmDepartement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmSeance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmSeance.Designer.cs">
+      <DependentUpon>frmSeance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmDevoir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmDevoir.Designer.cs">
+      <DependentUpon>frmDevoir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmEmploiDuTemps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmEmploiDuTemps.Designer.cs">
+      <DependentUpon>frmEmploiDuTemps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmProfesseurMatiere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmProfesseurMatiere.Designer.cs">
+      <DependentUpon>frmProfesseurMatiere.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +228,22 @@
     <EmbeddedResource Include="Views\Parametre\frmProfesseur.resx">
       <DependentUpon>frmProfesseur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmDepartement.resx">
+      <DependentUpon>frmDepartement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmSeance.resx">
+      <DependentUpon>frmSeance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmDevoir.resx">
+      <DependentUpon>frmDevoir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmEmploiDuTemps.resx">
+      <DependentUpon>frmEmploiDuTemps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmProfesseurMatiere.resx">
+      <DependentUpon>frmProfesseurMatiere.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -210,7 +262,9 @@
     <Folder Include="Views\CahierTexte\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Button-Download.ico" />
+    <Content Include="icone app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

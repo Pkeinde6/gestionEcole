@@ -1,4 +1,5 @@
-﻿using MySql.Data.EntityFramework;
+﻿using AppGestionCahierTexte.Migrations;
+using MySql.Data.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -11,6 +12,11 @@ namespace AppGestionCahierTexte.Model
     [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class BDCahierDeTexteContext : DbContext
     {
+        static BDCahierDeTexteContext()
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<BDCahierDeTexteContext, Configuration>());
+        }
+
         public BDCahierDeTexteContext() : base("ConnCahierDeTexte") {
         
         }
@@ -25,7 +31,21 @@ namespace AppGestionCahierTexte.Model
 
         public DbSet<ChefDepartement> chefDepartements { get; set; }
 
+        public DbSet<Administrateur> administrateurs { get; set; }
+
         public DbSet<ProfesseurMatiere> professeurMatieres { get; set; }
+
+        public DbSet<Departement> departements { get; set; }
+
+        public DbSet<Syllabus> syllabus { get; set; }
+
+        public DbSet<CahierDeTexte> cahierDeTextes { get; set; }
+
+        public DbSet<Seance> seances { get; set; }
+
+        public DbSet<Devoir> devoirs { get; set; }
+
+        public DbSet<EmploiDuTemps> emploiDuTemps { get; set; }
 
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,9 +11,9 @@ using AppGestionCahierTexte.Model;
 
 namespace AppGestionCahierTexte.Views.Parametre
 {
-    public partial class frmClasse : Form
+    public partial class frmDepartement : Form
     {
-        public frmClasse()
+        public frmDepartement()
         {
             InitializeComponent();
         }
@@ -24,7 +24,8 @@ namespace AppGestionCahierTexte.Views.Parametre
         {
             txtCode.Text = string.Empty;
             txtDesignation.Text = string.Empty;
-            dgClasse.DataSource = db.classes.ToList();
+            dgDepartement.DataSource = db.departements.ToList();
+            txtCode.Focus();
         }
 
         private void btnAjouter_Click(object sender, EventArgs e)
@@ -34,66 +35,63 @@ namespace AppGestionCahierTexte.Views.Parametre
                 MessageBox.Show("Veuillez remplir tous les champs.");
                 return;
             }
-            Classe c = new Classe();
-            c.CodeClasse = txtCode.Text;
-            c.DesignationClasse = txtDesignation.Text;
-            db.classes.Add(c);
+            Departement d = new Departement();
+            d.CodeDepartement = txtCode.Text;
+            d.DesignationDepartement = txtDesignation.Text;
+            db.departements.Add(d);
             db.SaveChanges();
             Effacer();
         }
 
         private void btnSelectionner_Click(object sender, EventArgs e)
         {
-            if (dgClasse.CurrentRow == null) return;
-            txtCode.Text = dgClasse.CurrentRow.Cells[1].Value.ToString();
-            txtDesignation.Text = dgClasse.CurrentRow.Cells[2].Value.ToString();
-
+            if (dgDepartement.CurrentRow == null) return;
+            txtCode.Text = dgDepartement.CurrentRow.Cells[1].Value.ToString();
+            txtDesignation.Text = dgDepartement.CurrentRow.Cells[2].Value.ToString();
         }
 
         private void btnModifier_Click(object sender, EventArgs e)
         {
-            if (dgClasse.CurrentRow == null) return;
-            int? id = int.Parse(dgClasse.CurrentRow.Cells[0].Value.ToString());
-            var c = db.classes.Find(id);
-            if (c == null) return;
-            c.DesignationClasse = txtDesignation.Text;
-            c.CodeClasse = txtCode.Text;
+            if (dgDepartement.CurrentRow == null) return;
+            int id = int.Parse(dgDepartement.CurrentRow.Cells[0].Value.ToString());
+            var d = db.departements.Find(id);
+            if (d == null) return;
+            d.CodeDepartement = txtCode.Text;
+            d.DesignationDepartement = txtDesignation.Text;
             db.SaveChanges();
             Effacer();
         }
 
         private void btnSupprimer_Click(object sender, EventArgs e)
         {
-            if (dgClasse.CurrentRow == null) return;
+            if (dgDepartement.CurrentRow == null) return;
             if (MessageBox.Show("Voulez-vous vraiment supprimer ?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
                 return;
-            int? id = int.Parse(dgClasse.CurrentRow.Cells[0].Value.ToString());
-            var c = db.classes.Find(id);
-            if (c == null) return;
-            db.classes.Remove(c);
+            int id = int.Parse(dgDepartement.CurrentRow.Cells[0].Value.ToString());
+            var d = db.departements.Find(id);
+            if (d == null) return;
+            db.departements.Remove(d);
             db.SaveChanges();
             Effacer();
         }
 
-        private void frmClasse_Load(object sender, EventArgs e)
+        private void frmDepartement_Load(object sender, EventArgs e)
         {
             Effacer();
         }
 
         private void btnRechercher_Click(object sender, EventArgs e)
         {
-            var liste = db.classes.ToList();
+            var liste = db.departements.ToList();
             if (!string.IsNullOrEmpty(txtRCode.Text))
             {
-                liste = liste.Where(a=>a.CodeClasse.ToUpper().Contains(txtRCode.Text.ToUpper())).ToList();
-
+                liste = liste.Where(a => a.CodeDepartement.ToUpper().Contains(txtRCode.Text.ToUpper())).ToList();
             }
             if (!string.IsNullOrEmpty(txtRDesignation.Text))
             {
-                liste = liste.Where(a => a.DesignationClasse.ToUpper().Contains(txtRDesignation.Text.ToUpper())).ToList();
-
+                liste = liste.Where(a => a.DesignationDepartement.ToUpper().Contains(txtRDesignation.Text.ToUpper())).ToList();
             }
-            dgClasse.DataSource = liste;
+            dgDepartement.DataSource = liste;
         }
     }
 }

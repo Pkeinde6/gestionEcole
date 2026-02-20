@@ -1,16 +1,9 @@
 namespace AppGestionCahierTexte.Views.Parametre
 {
-    partial class frmClasse
+    partial class frmDepartement
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,17 +15,13 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtCode = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtDesignation = new System.Windows.Forms.TextBox();
-            this.dgClasse = new System.Windows.Forms.DataGridView();
+            this.dgDepartement = new System.Windows.Forms.DataGridView();
             this.btnAjouter = new System.Windows.Forms.Button();
             this.btnModifier = new System.Windows.Forms.Button();
             this.btnSupprimer = new System.Windows.Forms.Button();
@@ -45,7 +34,7 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.btnRechercher = new System.Windows.Forms.Button();
             this.panelForm = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgClasse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgDepartement)).BeginInit();
             this.panel1.SuspendLayout();
             this.panelForm.SuspendLayout();
             this.SuspendLayout();
@@ -60,11 +49,13 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(1200, 45);
             this.lblTitle.TabIndex = 20;
-            this.lblTitle.Text = "   Gestion des Classes";
+            this.lblTitle.Text = "   Gestion des Departements";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panelForm
             // 
+            this.panelForm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panelForm.BackColor = System.Drawing.Color.White;
             this.panelForm.Controls.Add(this.label1);
             this.panelForm.Controls.Add(this.txtCode);
@@ -73,8 +64,6 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.panelForm.Controls.Add(this.btnAjouter);
             this.panelForm.Controls.Add(this.btnModifier);
             this.panelForm.Controls.Add(this.btnSupprimer);
-            this.panelForm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.panelForm.Location = new System.Drawing.Point(12, 55);
             this.panelForm.Name = "panelForm";
             this.panelForm.Padding = new System.Windows.Forms.Padding(15);
@@ -171,13 +160,13 @@ namespace AppGestionCahierTexte.Views.Parametre
             // 
             // btnSelectionner
             // 
+            this.btnSelectionner.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSelectionner.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(117)))), ((int)(((byte)(125)))));
             this.btnSelectionner.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSelectionner.FlatAppearance.BorderSize = 0;
             this.btnSelectionner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelectionner.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnSelectionner.ForeColor = System.Drawing.Color.White;
-            this.btnSelectionner.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSelectionner.Location = new System.Drawing.Point(12, 445);
             this.btnSelectionner.Name = "btnSelectionner";
             this.btnSelectionner.Size = new System.Drawing.Size(340, 40);
@@ -188,14 +177,14 @@ namespace AppGestionCahierTexte.Views.Parametre
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.btnRechercher);
             this.panel1.Controls.Add(this.txtRDesignation);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtRCode);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Location = new System.Drawing.Point(370, 55);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(815, 60);
@@ -243,6 +232,7 @@ namespace AppGestionCahierTexte.Views.Parametre
             // 
             // btnRechercher
             // 
+            this.btnRechercher.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRechercher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
             this.btnRechercher.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRechercher.FlatAppearance.BorderSize = 0;
@@ -251,42 +241,41 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.btnRechercher.ForeColor = System.Drawing.Color.White;
             this.btnRechercher.Location = new System.Drawing.Point(620, 10);
             this.btnRechercher.Name = "btnRechercher";
-            this.btnRechercher.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRechercher.Size = new System.Drawing.Size(170, 40);
             this.btnRechercher.TabIndex = 4;
             this.btnRechercher.Text = "Rechercher";
             this.btnRechercher.UseVisualStyleBackColor = false;
             this.btnRechercher.Click += new System.EventHandler(this.btnRechercher_Click);
             // 
-            // dgClasse
+            // dgDepartement
             // 
-            this.dgClasse.AllowUserToAddRows = false;
-            this.dgClasse.AllowUserToDeleteRows = false;
-            this.dgClasse.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgClasse.BackgroundColor = System.Drawing.Color.White;
-            this.dgClasse.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgClasse.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgClasse.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgClasse.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.dgClasse.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dgClasse.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.dgClasse.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgClasse.EnableHeadersVisualStyles = false;
-            this.dgClasse.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
-            this.dgClasse.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dgDepartement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgClasse.Location = new System.Drawing.Point(370, 125);
-            this.dgClasse.Name = "dgClasse";
-            this.dgClasse.ReadOnly = true;
-            this.dgClasse.RowHeadersVisible = false;
-            this.dgClasse.RowHeadersWidth = 62;
-            this.dgClasse.RowTemplate.Height = 35;
-            this.dgClasse.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgClasse.Size = new System.Drawing.Size(815, 400);
-            this.dgClasse.TabIndex = 4;
+            this.dgDepartement.AllowUserToAddRows = false;
+            this.dgDepartement.AllowUserToDeleteRows = false;
+            this.dgDepartement.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgDepartement.BackgroundColor = System.Drawing.Color.White;
+            this.dgDepartement.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgDepartement.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgDepartement.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgDepartement.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            this.dgDepartement.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.dgDepartement.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.dgDepartement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgDepartement.EnableHeadersVisualStyles = false;
+            this.dgDepartement.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.dgDepartement.Location = new System.Drawing.Point(370, 125);
+            this.dgDepartement.Name = "dgDepartement";
+            this.dgDepartement.ReadOnly = true;
+            this.dgDepartement.RowHeadersVisible = false;
+            this.dgDepartement.RowHeadersWidth = 62;
+            this.dgDepartement.RowTemplate.Height = 35;
+            this.dgDepartement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgDepartement.Size = new System.Drawing.Size(815, 400);
+            this.dgDepartement.TabIndex = 4;
             // 
-            // frmClasse
+            // frmDepartement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -297,11 +286,11 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.Controls.Add(this.panelForm);
             this.Controls.Add(this.btnSelectionner);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dgClasse);
-            this.Name = "frmClasse";
-            this.Text = "Classe";
-            this.Load += new System.EventHandler(this.frmClasse_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgClasse)).EndInit();
+            this.Controls.Add(this.dgDepartement);
+            this.Name = "frmDepartement";
+            this.Text = "Departement";
+            this.Load += new System.EventHandler(this.frmDepartement_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgDepartement)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelForm.ResumeLayout(false);
@@ -318,7 +307,7 @@ namespace AppGestionCahierTexte.Views.Parametre
         private System.Windows.Forms.TextBox txtCode;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtDesignation;
-        private System.Windows.Forms.DataGridView dgClasse;
+        private System.Windows.Forms.DataGridView dgDepartement;
         private System.Windows.Forms.Button btnAjouter;
         private System.Windows.Forms.Button btnModifier;
         private System.Windows.Forms.Button btnSupprimer;

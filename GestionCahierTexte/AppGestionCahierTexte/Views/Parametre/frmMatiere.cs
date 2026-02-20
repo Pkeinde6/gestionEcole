@@ -30,6 +30,11 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtCode.Text) || string.IsNullOrWhiteSpace(txtDesignation.Text))
+            {
+                MessageBox.Show("Veuillez remplir tous les champs.");
+                return;
+            }
             Matiere m = new Matiere();
             m.CodeMatiere=txtCode.Text;
             m.DesignationMatiere=txtDesignation.Text;
@@ -40,14 +45,17 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void btnSelectionner_Click(object sender, EventArgs e)
         {
+            if (dgMatiere.CurrentRow == null) return;
             txtCode.Text=dgMatiere.CurrentRow.Cells[1].Value.ToString();
             txtDesignation.Text = dgMatiere.CurrentRow.Cells[2].Value.ToString();
         }
 
         private void btnModifier_Click(object sender, EventArgs e)
         {
-            int? id = int.Parse(dgMatiere.CurrentRow.Cells[1].Value.ToString());
+            if (dgMatiere.CurrentRow == null) return;
+            int? id = int.Parse(dgMatiere.CurrentRow.Cells[0].Value.ToString());
             var m = db.matieres.Find(id);
+            if (m == null) return;
             m.DesignationMatiere=txtDesignation.Text;
             m.CodeMatiere = txtCode.Text;
             db.SaveChanges();
@@ -56,8 +64,12 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void btnSupprimer_Click(object sender, EventArgs e)
         {
-            int? id = int.Parse(dgMatiere.CurrentRow.Cells[1].Value.ToString());
+            if (dgMatiere.CurrentRow == null) return;
+            if (MessageBox.Show("Voulez-vous vraiment supprimer ?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                return;
+            int? id = int.Parse(dgMatiere.CurrentRow.Cells[0].Value.ToString());
             var m = db.matieres.Find(id);
+            if (m == null) return;
             db.matieres.Remove(m);
             db.SaveChanges();
             Effacer();

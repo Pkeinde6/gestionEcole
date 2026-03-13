@@ -19,12 +19,17 @@ namespace AppGestionCahierTexte
     {
         public frmMDI()
         {
-            // Double buffering + rendu optimisé pour performance max
-            this.SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
-            this.UpdateStyles();
-
             InitializeComponent();
-            this.Resize += (s, e) => { if (panelDashboard.Visible) ShowDashboard(); };
+
+            if (LicenseManager.UsageMode == LicenseUsageMode.Runtime)
+            {
+                // Double buffering + rendu optimisé pour performance max (uniquement à l'exécution)
+                this.SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
+                this.UpdateStyles();
+
+                try { this.Icon = new System.Drawing.Icon(System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "icone app.ico")); } catch { }
+                this.Resize += (s, e) => { if (panelDashboard.Visible) ShowDashboard(); };
+            }
         }
 
         // Activer composition WS_EX_COMPOSITED pour tous les contrôles enfants
@@ -33,7 +38,8 @@ namespace AppGestionCahierTexte
             get
             {
                 CreateParams cp = base.CreateParams;
-                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                if (!DesignMode)
+                    cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
                 return cp;
             }
         }
@@ -207,13 +213,21 @@ namespace AppGestionCahierTexte
 
         private void OpenChildForm(Form childForm)
         {
-            fermer();
-            panelDashboard.Visible = false;
-            panelContent.Visible = false;
-            childForm.MdiParent = this;
-            childForm.Show();
-            childForm.WindowState = FormWindowState.Maximized;
-            childForm.FormClosed += (s, ev) => { if (this.MdiChildren.Length == 0) ShowDashboard(); };
+            try
+            {
+                fermer();
+                panelDashboard.Visible = false;
+                panelContent.Visible = false;
+                childForm.MdiParent = this;
+                childForm.Show();
+                childForm.WindowState = FormWindowState.Maximized;
+                childForm.FormClosed += (s, ev) => { if (this.MdiChildren.Length == 0) ShowDashboard(); };
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors de l'ouverture du formulaire : " + ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ShowDashboard();
+            }
         }
 
         private void seDeconnecterToolStripMenuItem_Click(object sender, EventArgs e)
@@ -585,6 +599,8 @@ namespace AppGestionCahierTexte
         // ===== LOAD =====
         private void frmMDI_Load(object sender, EventArgs e)
         {
+            if (DesignMode) return;
+
             Computer myComputer = new Computer();
             this.Width = myComputer.Screen.Bounds.Width;
             this.Height = myComputer.Screen.Bounds.Height;

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppGestionCahierTexte.Model.BDCahierDeTexteContext">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQAABAAAAAAgAAAAAAEAAAAAAIAAAAAAEAA=</HashCode>
+      <FileName>Model\BDCahierDeTexteContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Utilisateur">
+    <Position X="8" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAQAAAAAAAAAAAACAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Utilisateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Professeur">
+    <Position X="6" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Model\Professeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.ResponsableClasse">
+    <Position X="8.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ResponsableClasse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.ChefDepartement">
+    <Position X="11" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ChefDepartement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Administrateur">
+    <Position X="13.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Administrateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Classe">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Classe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Matiere">
+    <Position X="3.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Model\Matiere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.ProfesseurMatiere">
+    <Position X="3.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ProfesseurMatiere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Departement">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Departement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Syllabus">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Syllabus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.CahierDeTexte">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CahierDeTexte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Seance">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Seance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.Devoir">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Devoir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionCahierTexte.Model.EmploiDuTemps">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\EmploiDuTemps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

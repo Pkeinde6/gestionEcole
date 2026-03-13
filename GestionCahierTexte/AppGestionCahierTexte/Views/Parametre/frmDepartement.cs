@@ -18,7 +18,7 @@ namespace AppGestionCahierTexte.Views.Parametre
             InitializeComponent();
         }
 
-        BDCahierDeTexteContext db = new BDCahierDeTexteContext();
+        BDCahierDeTexteContext db;
 
         private void Effacer()
         {
@@ -77,7 +77,15 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void frmDepartement_Load(object sender, EventArgs e)
         {
-            Effacer();
+            try
+            {
+                db = new BDCahierDeTexteContext();
+                Effacer();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors du chargement : " + ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnRechercher_Click(object sender, EventArgs e)

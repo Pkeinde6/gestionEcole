@@ -17,6 +17,7 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelForm = new System.Windows.Forms.Panel();
             this.lblTitre = new System.Windows.Forms.Label();
@@ -294,9 +295,12 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.dgDevoir.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgDevoir.BackgroundColor = System.Drawing.Color.White;
             this.dgDevoir.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgDevoir.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.dgDevoir.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dgDevoir.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.dgDevoir.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgDevoir.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDevoir.EnableHeadersVisualStyles = false;
             this.dgDevoir.Location = new System.Drawing.Point(420, 110);

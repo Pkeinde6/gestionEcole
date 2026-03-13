@@ -15,6 +15,9 @@ packages/
 # Setup output
 Output/
 
+# Archives
+*.zip
+
 # OS files
 Thumbs.db
 Desktop.ini

@@ -17,6 +17,7 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelForm = new System.Windows.Forms.Panel();
             this.lblJour = new System.Windows.Forms.Label();
@@ -274,9 +275,12 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.dgEmploi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgEmploi.BackgroundColor = System.Drawing.Color.White;
             this.dgEmploi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgEmploi.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
-            this.dgEmploi.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dgEmploi.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.dgEmploi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgEmploi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgEmploi.EnableHeadersVisualStyles = false;
             this.dgEmploi.Location = new System.Drawing.Point(420, 110);

@@ -20,7 +20,7 @@ namespace AppGestionCahierTexte.Views.Securite
             InitializeComponent();
         }
 
-        BDCahierDeTexteContext db = new BDCahierDeTexteContext();
+        BDCahierDeTexteContext db;
 
         //int? id = null;
 
@@ -94,7 +94,15 @@ namespace AppGestionCahierTexte.Views.Securite
 
         private void ResponsableClasse_Load(object sender, EventArgs e)
         {
-            Effacer();
+            try
+            {
+                db = new BDCahierDeTexteContext();
+                Effacer();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors du chargement : " + ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnSelectionner_Click(object sender, EventArgs e)

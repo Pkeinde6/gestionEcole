@@ -8,7 +8,7 @@
 #define MyAppURL "https://classlog.com"
 #define MyAppExeName "ClassLog.exe"
 #define MyAppOutputDir "..\Output"
-#define MyAppSourceDir "..\AppGestionCahierTexte\bin\Debug"
+#define MyAppSourceDir "..\AppGestionCahierTexte\bin\Release"
 
 [Setup]
 AppId={{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}

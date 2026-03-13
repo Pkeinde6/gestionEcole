@@ -4,7 +4,7 @@ echo   ClassLog - Creation du package portable
 echo ============================================
 echo.
 
-set SOURCE=..\AppGestionCahierTexte\bin\Debug
+set SOURCE=..\AppGestionCahierTexte\bin\Release
 set OUTPUT=..\Output
 set PACKAGE=ClassLog_Portable_v1.0.0
 

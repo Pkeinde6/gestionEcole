@@ -17,6 +17,7 @@ namespace AppGestionCahierTexte.Views.Parametre
 
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelForm = new System.Windows.Forms.Panel();
             this.lblProfesseur = new System.Windows.Forms.Label();
@@ -154,9 +155,12 @@ namespace AppGestionCahierTexte.Views.Parametre
             this.dgAffectation.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgAffectation.BackgroundColor = System.Drawing.Color.White;
             this.dgAffectation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgAffectation.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(41)))), ((int)(((byte)(57)))));
-            this.dgAffectation.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dgAffectation.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.dgAffectation.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgAffectation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgAffectation.EnableHeadersVisualStyles = false;
             this.dgAffectation.Location = new System.Drawing.Point(420, 110);

@@ -14,7 +14,10 @@ namespace AppGestionCahierTexte.Model
     {
         static BDCahierDeTexteContext()
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<BDCahierDeTexteContext, Configuration>());
+            if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
+            {
+                Database.SetInitializer(new MigrateDatabaseToLatestVersion<BDCahierDeTexteContext, Configuration>());
+            }
         }
 
         public BDCahierDeTexteContext() : base("ConnCahierDeTexte") {

@@ -210,7 +210,6 @@
             this.Controls.Add(this.panelTopBar);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.panelSidebar);
-            this.Icon = new System.Drawing.Icon(System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "icone app.ico"));
             this.IsMdiContainer = true;
             this.MinimumSize = new System.Drawing.Size(900, 600);
             this.Name = "frmMDI";

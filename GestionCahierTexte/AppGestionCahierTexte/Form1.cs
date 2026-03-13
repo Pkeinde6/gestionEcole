@@ -20,6 +20,7 @@ namespace AppGestionCahierTexte
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
             this.UpdateStyles();
             InitializeComponent();
+            try { this.Icon = new System.Drawing.Icon(System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "icone app.ico")); } catch { }
         }
 
         protected override CreateParams CreateParams
